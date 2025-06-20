@@ -6,7 +6,7 @@ fun getReverseNum(number: Int): Any {
     var rev = 0          // This will hold the reversed number, starting from 0
 
     // Loop runs until n becomes 0
-    while (n > 0) {
+    while (n != 0) {
         rev = rev * 10 + (n % 10) // Take the last digit of n and add it to rev
         n = n / 10                // Remove the last digit from n
     }
